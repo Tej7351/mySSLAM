@@ -1,0 +1,54 @@
+    1  pwd
+    2  ls
+    3  cd SSLAM2PRO
+    4  ls
+    5  python SSLAM2PRO/SSLAM/run_full_training.py
+    6  python install -r SSLAM2PRO/SSLAM/SSLAM_Inference/requirements_sslam_infer_minimal.txt
+    7  ls
+    8  cd SSLAM2PRO/SSLAM/SSLAM_Inference
+    9  python install -r requirements_sslam_infer_minimal.txt
+   10  pip install -r requirements_sslam_infer_minimal.txt
+   11  python SSLAM2PRO/SSLAM/run_full_training.py
+   12  cd..
+   13  cd ..
+   14  python run_full_training.py
+   15  pip install torchaudio
+   16  pip install torchvision torchaudio
+   17  python run_full_training.py
+   18  pip install --upgrade torch torchaudio --extra-index-url https:/downoload.pytorch.org/whl/cuc121
+   19  pip install torch torchaudio
+   20  pip install -r SSLAM_Inference/requirements_sslam_infer_minimal.txt
+   21  ^[[200~cd SSLAM2PRO/SSLAM~
+   22  cd SSLAM2PRO/SSLAM
+   23  pip install -r SSLAM_Inference/requirements_sslam_infer_minimal.txt
+   24  pip install torch==2.2.0 torchaudio --index-url https://download.pytorch.org/whl/cu121
+   25  grep -v "torch==" SSLAM_Inference/requirements_sslam_infer_minimal.txt | pip install -r /dev/stdin~
+   26  grep -v "^torch" SSLAM_Inference/requirements_sslam_infer_minimal.txt > /tmp/req_filtered.txt && pip install -r /tmp/req_filtered.txt
+   27  pip install torchaudio==2.2.0 --index-url https://download.pytorch.org/whl/cu121
+   28  pip install torchvision==0.17.0 --index-url https://download.pytorch.org/whl/cu121
+   29  python -c "import torch; import torchaudio; print('Torch:', torch.__version__); print('CUDA:', torch.cuda.is_available())"
+   30  ls ~/SSLAM2PRO/SSLAM/ESC-50/
+   31  find ~/SSLAM2PRO/SSLAM/ESC-50 -name "ESC-50_dataset" -type d
+   32  sed -i 's|BASE_DIR.*=.*r"d:\\\\SSLAM2PRO\\\\SSLAM"|BASE_DIR = "/root/SSLAM2PRO/SSLAM"|g' run_full_training.py
+   33  BASE_DIR = "/root/SSLAM2PRO/SSLAM"
+   34  grep "BASE_DIR" run_full_training.py | head -5
+   35  DATASET_DIR = os.path.join(BASE_DIR, "ESC-50Dataset")
+   36  grep "BASE_DIR" run_full_training.py | head -5
+   37  python3 -c "\ncontent = open('run_full_training.py').read()\ncontent = content.replace(\n    r'BASE_DIR      = r\"d:\SSLAM2PRO\SSLAM\"',\n    'BASE_DIR      = \"/teamspace/studios/this_studio/SSLAM2PRO/SSLAM\"'\n)\ncontent = content.replace(\n    'os.path.join(BASE_DIR, \"ESC-50Dataset\")',\n    'os.path.join(BASE_DIR, \"ESC-50\", \"ESC-50_dataset\")'\n)\nopen('run_full_training.py', 'w').write(content)\nprint('Done!')\n"
+   38  grep "BASE_DIR\|DATASET_DIR" run_full_training.py | head -3
+   39  grep "MODEL_DIR\|FAIRSEQ_PATH" run_full_training.py | head -3
+   40  ls /teamspace/studios/this_studio/SSLAM2PRO/SSLAM/ESC-50/ESC-50_dataset/ | head -10
+   41  ls /teamspace/studios/this_studio/SSLAM2PRO/SSLAM/SSLAM_Inference/cloned_fairseq_copy/
+   42  python run_full_training.py 2>&1 | tee training_output.txt
+   43  pip install soundfile && python run_full_training.py 2>&1 | tee training_output.txt
+   44  python3 -c "\ncontent = open('run_full_training.py').read()\ncontent = content.replace(\n    'torch.amp.GradScaler(\"cuda\")',\n    'torch.cuda.amp.GradScaler()'\n)\nopen('run_full_training.py', 'w').write(content)\nprint('Fixed!')\n"
+   45  python run_full_training.py 2>&1 | tee training_output.txt
+   46  ^[[200~python3 -c "\ncontent = open('run_full_training.py').read()\ncontent = content.replace(\n    'torch.amp.GradScaler(\"cuda\")',\n    'torch.cuda.amp.GradScaler()'\n)\nopen('run_full_training.py', 'w').write(content)\nprint('Fixed!')\npython3 -c "\ncontent = open('run_full_training.py').read()\ncontent = content.replace(\n    'torch.amp.GradScaler(\"cuda\")',\n    'torch.cuda.amp.GradScaler()'\n)\nopen('run_full_training.py', 'w').write(content)\nprint('Fixed!')\n"\n# Sirf yeh karo pehle\ncheckpoint = torch.load("sslam_pretrained.pt")\nmodel.load_state_dict(checkpoint)\nmodel.eval()\n\n# Backbone freeze karo\nfor param in model.parameters():\n    param.requires_grad = False\n\n# Sirf linear head train karo\nclassifier = nn.Linear(768, 50)  # ViT-Base embed dim
+   47  # Sirf yeh karo pehle\ncheckpoint = torch.load("sslam_pretrained.pt")\nmodel.load_state_dict(checkpoint)\nmodel.eval()\n\n# Backbone freeze karo\nfor param in model.parameters():\n    param.requires_grad = False\n\n# Sirf linear head train karo\nclassifier = nn.Linear(768, 50)  # ViT-Base embed dim
+   48  touch final_eval.py
+   49  python final_eval.py
+   50  ls /teamspace/studios/this_studio/SSLAM2PRO/SSLAM/ESC-50/ESC-50_datase
+   51  ls /teamspace/studios/this_studio/SSLAM2PRO/SSLAM/ESC-50/ESC-50_dataset
+   52  python final_eval.py
+   53  cd SSLAM2PRO/SSLAM/
+   54  python final_eval.py

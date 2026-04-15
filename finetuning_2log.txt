@@ -1,0 +1,33 @@
+Loaded 95.55% checkpoint. Starting final polishing...
+
+--- FINAL SOTA POLISHING RUN ---
+Epoch 1/30 | Acc: 4.80% | Best: 95.55%
+Epoch 2/30 | Acc: 13.65% | Best: 95.55%
+Epoch 3/30 | Acc: 20.85% | Best: 95.55%
+Epoch 4/30 | Acc: 26.60% | Best: 95.55%
+Epoch 5/30 | Acc: 32.10% | Best: 95.55%
+Epoch 6/30 | Acc: 35.15% | Best: 95.55%
+Epoch 7/30 | Acc: 38.60% | Best: 95.55%
+Epoch 8/30 | Acc: 41.80% | Best: 95.55%
+Epoch 9/30 | Acc: 44.55% | Best: 95.55%
+Epoch 10/30 | Acc: 47.70% | Best: 95.55%
+Epoch 11/30 | Acc: 53.20% | Best: 95.55%
+Epoch 12/30 | Acc: 54.90% | Best: 95.55%
+Epoch 13/30 | Acc: 57.05% | Best: 95.55%
+Epoch 14/30 | Acc: 59.75% | Best: 95.55%
+Epoch 15/30 | Acc: 61.65% | Best: 95.55%
+Epoch 16/30 | Acc: 62.05% | Best: 95.55%
+Epoch 17/30 | Acc: 63.50% | Best: 95.55%
+Epoch 18/30 | Acc: 65.05% | Best: 95.55%
+Epoch 19/30 | Acc: 65.25% | Best: 95.55%
+Epoch 20/30 | Acc: 66.95% | Best: 95.55%
+Epoch 21/30 | Acc: 67.30% | Best: 95.55%
+Epoch 22/30 | Acc: 69.25% | Best: 95.55%
+Epoch 23/30 | Acc: 69.80% | Best: 95.55%
+Epoch 24/30 | Acc: 70.25% | Best: 95.55%
+Epoch 25/30 | Acc: 70.60% | Best: 95.55%
+Epoch 26/30 | Acc: 71.10% | Best: 95.55%
+Epoch 27/30 | Acc: 71.50% | Best: 95.55%
+Epoch 28/30 | Acc: 71.65% | Best: 95.55%
+Epoch 29/30 | Acc: 71.50% | Best: 95.55%
+Epoch 30/30 | Acc: 72.05% | Best: 95.55%

@@ -1,0 +1,87 @@
+Loaded checkpoint_best.pt for recovery.
+
+--- RECOVERY MISSION: TARGET 96.2%+ ---
+ ✓ Progress: 4.40% - Saved as checkpoint_SOTA_96.pt
+Epoch 1/50 | Acc: 4.40% | Best this run: 4.40%
+ ✓ Progress: 12.30% - Saved as checkpoint_SOTA_96.pt
+Epoch 2/50 | Acc: 12.30% | Best this run: 12.30%
+ ✓ Progress: 19.90% - Saved as checkpoint_SOTA_96.pt
+Epoch 3/50 | Acc: 19.90% | Best this run: 19.90%
+ ✓ Progress: 28.55% - Saved as checkpoint_SOTA_96.pt
+Epoch 4/50 | Acc: 28.55% | Best this run: 28.55%
+ ✓ Progress: 34.25% - Saved as checkpoint_SOTA_96.pt
+Epoch 5/50 | Acc: 34.25% | Best this run: 34.25%
+ ✓ Progress: 40.25% - Saved as checkpoint_SOTA_96.pt
+Epoch 6/50 | Acc: 40.25% | Best this run: 40.25%
+ ✓ Progress: 47.20% - Saved as checkpoint_SOTA_96.pt
+Epoch 7/50 | Acc: 47.20% | Best this run: 47.20%
+ ✓ Progress: 51.05% - Saved as checkpoint_SOTA_96.pt
+Epoch 8/50 | Acc: 51.05% | Best this run: 51.05%
+ ✓ Progress: 54.50% - Saved as checkpoint_SOTA_96.pt
+Epoch 9/50 | Acc: 54.50% | Best this run: 54.50%
+ ✓ Progress: 56.15% - Saved as checkpoint_SOTA_96.pt
+Epoch 10/50 | Acc: 56.15% | Best this run: 56.15%
+Epoch 11/50 | Acc: 44.65% | Best this run: 56.15%
+Epoch 12/50 | Acc: 48.10% | Best this run: 56.15%
+Epoch 13/50 | Acc: 50.75% | Best this run: 56.15%
+Epoch 14/50 | Acc: 55.05% | Best this run: 56.15%
+ ✓ Progress: 59.65% - Saved as checkpoint_SOTA_96.pt
+Epoch 15/50 | Acc: 59.65% | Best this run: 59.65%
+ ✓ Progress: 64.80% - Saved as checkpoint_SOTA_96.pt
+Epoch 16/50 | Acc: 64.80% | Best this run: 64.80%
+ ✓ Progress: 68.10% - Saved as checkpoint_SOTA_96.pt
+Epoch 17/50 | Acc: 68.10% | Best this run: 68.10%
+ ✓ Progress: 72.55% - Saved as checkpoint_SOTA_96.pt
+Epoch 18/50 | Acc: 72.55% | Best this run: 72.55%
+ ✓ Progress: 74.95% - Saved as checkpoint_SOTA_96.pt
+Epoch 19/50 | Acc: 74.95% | Best this run: 74.95%
+ ✓ Progress: 77.50% - Saved as checkpoint_SOTA_96.pt
+Epoch 20/50 | Acc: 77.50% | Best this run: 77.50%
+ ✓ Progress: 81.70% - Saved as checkpoint_SOTA_96.pt
+Epoch 21/50 | Acc: 81.70% | Best this run: 81.70%
+ ✓ Progress: 83.70% - Saved as checkpoint_SOTA_96.pt
+Epoch 22/50 | Acc: 83.70% | Best this run: 83.70%
+ ✓ Progress: 85.70% - Saved as checkpoint_SOTA_96.pt
+Epoch 23/50 | Acc: 85.70% | Best this run: 85.70%
+ ✓ Progress: 88.15% - Saved as checkpoint_SOTA_96.pt
+Epoch 24/50 | Acc: 88.15% | Best this run: 88.15%
+ ✓ Progress: 89.55% - Saved as checkpoint_SOTA_96.pt
+Epoch 25/50 | Acc: 89.55% | Best this run: 89.55%
+ ✓ Progress: 90.75% - Saved as checkpoint_SOTA_96.pt
+Epoch 26/50 | Acc: 90.75% | Best this run: 90.75%
+ ✓ Progress: 92.10% - Saved as checkpoint_SOTA_96.pt
+Epoch 27/50 | Acc: 92.10% | Best this run: 92.10%
+ ✓ Progress: 92.80% - Saved as checkpoint_SOTA_96.pt
+Epoch 28/50 | Acc: 92.80% | Best this run: 92.80%
+ ✓ Progress: 93.25% - Saved as checkpoint_SOTA_96.pt
+Epoch 29/50 | Acc: 93.25% | Best this run: 93.25%
+ ✓ Progress: 93.50% - Saved as checkpoint_SOTA_96.pt
+Epoch 30/50 | Acc: 93.50% | Best this run: 93.50%
+Epoch 31/50 | Acc: 80.60% | Best this run: 93.50%
+Epoch 32/50 | Acc: 76.45% | Best this run: 93.50%
+Epoch 33/50 | Acc: 78.75% | Best this run: 93.50%
+Epoch 34/50 | Acc: 84.65% | Best this run: 93.50%
+Epoch 35/50 | Acc: 85.60% | Best this run: 93.50%
+Epoch 36/50 | Acc: 87.40% | Best this run: 93.50%
+Epoch 37/50 | Acc: 89.80% | Best this run: 93.50%
+Epoch 38/50 | Acc: 90.90% | Best this run: 93.50%
+Epoch 39/50 | Acc: 92.30% | Best this run: 93.50%
+ ✓ Progress: 94.55% - Saved as checkpoint_SOTA_96.pt
+Epoch 40/50 | Acc: 94.55% | Best this run: 94.55%
+ ✓ Progress: 96.70% - Saved as checkpoint_SOTA_96.pt
+Epoch 41/50 | Acc: 96.70% | Best this run: 96.70%
+Epoch 42/50 | Acc: 96.30% | Best this run: 96.70%
+ ✓ Progress: 98.30% - Saved as checkpoint_SOTA_96.pt
+Epoch 43/50 | Acc: 98.30% | Best this run: 98.30%
+ ✓ Progress: 99.05% - Saved as checkpoint_SOTA_96.pt
+Epoch 44/50 | Acc: 99.05% | Best this run: 99.05%
+ ✓ Progress: 99.65% - Saved as checkpoint_SOTA_96.pt
+Epoch 45/50 | Acc: 99.65% | Best this run: 99.65%
+ ✓ Progress: 99.80% - Saved as checkpoint_SOTA_96.pt
+Epoch 46/50 | Acc: 99.80% | Best this run: 99.80%
+ ✓ Progress: 99.95% - Saved as checkpoint_SOTA_96.pt
+Epoch 47/50 | Acc: 99.95% | Best this run: 99.95%
+Epoch 48/50 | Acc: 99.90% | Best this run: 99.95%
+Epoch 49/50 | Acc: 99.95% | Best this run: 99.95%
+ ✓ Progress: 100.00% - Saved as checkpoint_SOTA_96.pt
+Epoch 50/50 | Acc: 100.00% | Best this run: 100.00%

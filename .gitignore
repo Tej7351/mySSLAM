@@ -1,0 +1,15 @@
+# Ignore dataset folders
+data/
+datasets/
+ESC-50/
+*.wav
+*.mp3
+
+# Ignore Python caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Ignore heavy checkpoints (except the ones we want)
+*.pt
+# we already have checkpoint_final.zip in LFS, so it's okay
